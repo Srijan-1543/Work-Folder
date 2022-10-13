@@ -1,0 +1,9 @@
+Q1) We use the ‘float’ type as an approximation of a real number. We may use the float type implicitly by writing a literal number with a decimal point, e.g., writing 1.0 rather than 1 to indicate that we intend the floating point number 1.0 rather than the integer (int type) number 1. The point of a floating-point representation is that it holds a bunch of digits and “doesn’t care” where the decimal point happens to be, as the position of the decimal point is part of the representation.
+
+Q2)  Once the script has been written, save it to a specific location in your system and then follow the steps below to open a file from python terminal:
+
+Open the terminal by searching for it in the dashboard or pressing Ctrl + Alt + T.
+
+Navigate the terminal to the directory where the script is located using the cd command.
+
+Type python SCRIPTNAME.py in the terminal to execute the script ( where 'SCRIPTNAME' is the name of the python file ).

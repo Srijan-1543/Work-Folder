@@ -1,0 +1,16 @@
+Negative index value is used to refer the elements of a list from the end. For example:
+
+CODE:
+
+arr = ['2','6','8','3','11','13']
+print (arr[0])
+print (arr[1])
+print (arr[- 1])
+print (arr[- 2])
+
+OUTPUT:
+
+2
+6
+13
+11
