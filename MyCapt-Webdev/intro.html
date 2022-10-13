@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>New Website</title>
+    <style>
+        nav, header,footer {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+            margin: 0;
+            background-color:white;
+        }
+
+        h1,h2 {
+            margin: inherit;
+            text-align: center;
+        }
+
+        form {
+            color: rgb(186, 0, 0);
+            text-align: center;
+
+        }
+
+        nav {
+            width: 100%;
+            margin: 0;
+        }
+
+        nav ul {
+            background-color: black;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+
+        }
+
+        .topnav-left {
+            padding: 15px;
+            list-style: none;
+            text-decoration: none;
+            float: left;
+            font-size: medium;
+        }
+
+        .topnav-right {
+            padding: 15px;
+            list-style: none;
+            text-decoration: none;
+            float: right;
+            font-size: medium;
+        }
+
+        a:hover{
+            color:rgba(27, 227, 9, 0.745);
+        }
+
+        a{
+            color:rgb(4, 0, 255);
+        }
+
+        #footer {
+            position: fixed;
+			padding: 10px 10px 0px 10px;
+			bottom: 0;
+			width: 100%;
+			height: 40px;
+			background: black;
+            color: aqua;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <nav class="topnav">
+        <ul>
+            <li class="topnav-left"><a href="#">ANIMATES</a></li>
+            <li class="topnav-right"><a href="#">Sign Up</a></li>
+            <li class="topnav-right"><a href="#">Log in</a></li>
+        </ul>
+    </nav><br><br>
+    <h1>WELCOME TO ANIMATES!</h1><br><br>
+    <h2>LOG IN</h2>
+    <form>
+        <h3>USERNAME:
+            <input type="text" name="username" placeholder="Enter your Username">
+        </h3>
+        <h3>PASSWORD:
+            <input type="text" name="password" placeholder="Enter your Password">
+        </h3>
+        <br> <button><a href="https://google.com">SUBMIT</a></button>
+    </form>
+
+    <footer id="footer">
+            <h2>Copyright © 2022 ANIMATES - ALL RIGHTS RESERVED</h2>
+    </footer>
+</body>
+
+</html>
